@@ -35,8 +35,11 @@ realtime_quote = "https://stock.xueqiu.com/v5/stock/realtime/quotec.json?symbol=
 realtime_pankou = "https://stock.xueqiu.com/v5/stock/realtime/pankou.json?symbol="
 realtime_quote_detail = "https://stock.xueqiu.com/v5/stock/quote.json?extend=detail&symbol="
 
-# kline
+# news and advisories
+advisories_latest = "https://xueqiu.com/statuses/stock_timeline.json?source=%E5%85%AC%E5%91%8A&symbol_id="
+news_latest = "https://xueqiu.com/statuses/stock_timeline.json?&source=%E8%87%AA%E9%80%89%E8%82%A1%E6%96%B0%E9%97%BB&symbol_id="
 
+# kline
 kline = "https://stock.xueqiu.com/v5/stock/chart/kline.json?symbol={}&begin={}&period=day&type=before&count=-{}&indicator=kline,pe,pb,ps,pcf,market_capital,agt,ggt,balance"
 
 # user
